@@ -1,3 +1,16 @@
+
+/***********  BORDER BOX SIZING  *************/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/******** RESPONSIVE GRID SYSTEM ********/
+
 /******** 3 COL SECTIONS ********/
 
 /*  SECTIONS  */
