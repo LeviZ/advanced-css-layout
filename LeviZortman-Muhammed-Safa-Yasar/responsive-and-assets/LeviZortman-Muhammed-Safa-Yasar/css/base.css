@@ -1,19 +1,8 @@
 
 /***********  BASE  *************/
 
-body {
-  background-image: url('http://p1.pichost.me/i/36/1591464.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no repeat;
-}
-
 a:link {
   color: white;
-}
-
-a:visited {
-  color: red;
 }
 
 h2 {
@@ -24,24 +13,23 @@ h2 {
 
 h1 {
   text-align: center;
-  font-size: 54px;
+  font-size: 3.40em;
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+p {
+  font-size: 1em;
+}
 
+body {
+  background-image: url(../imgs/background.svg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no repeat;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.no-svg {
+  background-image: url(../imgs/background.png);
+}
